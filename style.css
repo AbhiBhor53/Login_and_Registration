@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-transform: capitalize;
+}
+.hero{
+    background-image: url(10.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+}
+h1{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 40px;
+   
+
+}
+.content{
+    background-color: transparent;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 0 4px 4px rgba(0,0,0,0.19);
+
+}
+.content i{
+    font-size: 50px;
+    padding-top: 20px;
+    color: orange;
+}
+.content input{
+    width: 400px;
+    height: 55px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    box-shadow: 1px 0 4px 4px rgba(0,0,0,0.19);
+}
+#btn{
+    
+    background-color: orange;
+    box-shadow: 1px 0 4px 4px rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.content p{
+   margin-top: 20px;
+   color: orange;
+   font-weight: bold;
+
+}
+.content input:hover{
+    transform: scale(1.1);
+    box-shadow:1px 0 4px 4px rgba(0,0,0,0.19) ;
+    border: none;
+}
+#btn:hover{
+    background-color: orange;
+    transform: scale(1.1);
+    box-shadow: 1px 0 4px 4px rgba(255,123,0);
+    border: none;
+
+}
+.content a{
+   color: orange;
+   text-decoration: none;
+}
+
+.regHero{
+    background-image: url(pic11.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+   
+}
+.reg-content{
+    background-color: transparent;
+    height: 510px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 0 4px 4px rgba(0,0,0,0.19);
+}
+.reg-content table ,td{
+  
+    width: 550px;
+    color: white;
+}
+
+.reg-content .txt{
+    width: 300px;
+    height: 45px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    box-shadow: 1px 0 4px 4px rgba(0,0,0,0.19);
+}
+.reg-content i{
+    font-size: 40px;
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.radio{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    
+}
+#reg-btn{
+    width: 500px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    background-color: orange;
+    box-shadow: 1px 0px 4px 4px rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+    margin-bottom: 20px;
+
+}
+.reg-content p{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.reg-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.reg-content input:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 0px 4px 4px rgba(0,0,0,0.19);
+    border: none;
+}
+
+
+/*Making this page responsive*/
+
+ @media  screen and (max-width :500px) {
+     .content{
+        width: 80%;
+     }
+     .content input{
+        width: 70%;
+     }
+     .reg-content{
+        width: 90%;
+        height: 500px;
+     }
+     .reg-content table,td{
+        padding: 0%;
+        width: 250px;
+     }
+     .reg-content .txt,#reg-btn{
+        width: 200px;
+     }
+   
+     
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
